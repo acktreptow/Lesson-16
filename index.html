@@ -10,13 +10,13 @@
   </head>
   <body>
     <div id="container">
-      <div id="nav">
+      <div id="nav-container">
         <h1>Alex Treptow</h1>
         <ul>
-          <li>About Me</li>
-          <li>Projects</li>
-          <li>Skills</li>
-          <li>Contact</li>
+          <li class="list-items" id="li-one">About Me</li>
+          <li class="list-items" id="li-two">Projects</li>
+          <li class="list-items" id="li-three">Skills</li>
+          <li class="list-items" id="li-four">Contact</li>
         </ul>
       </div>
       <div id="info-container">
@@ -36,7 +36,13 @@
           In my free time, I like to walk my dog, work on videos for my YouTube
           channel, and just generally just chill with a game, movie or NFL game.
         </p>
-        <p>Here is some random Javascript interactivity!</p>
+        <p>
+          <span id="here">Here</span> <span id="is">is</span>
+          <span id="some">some</span> <span id="random">random</span>
+          <span id="javascript">Javascript</span>
+          <span id="interactivity">interactivity!</span> (try clicking, mousing
+          over, scroll wheel etc)
+        </p>
         <img
           id="dog-pic"
           src="https://scontent-lcy1-1.xx.fbcdn.net/v/t1.18169-9/11659352_10156077378960694_7112105107679003311_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=TZmG9lrZD6EAX_z_znG&_nc_ht=scontent-lcy1-1.xx&oh=00_AfDh82Kt8jZoLZzxr-eP50dD0ZbyDZJaZA5xNRGJJNCrOA&oe=63B76CCF"
@@ -50,6 +56,21 @@
           <li>YouTube feedback form</li>
           <li>Xbox fansite</li>
         </ul>
+      </div>
+      <div id="skills-container">
+        <h2 id="skills-header">Skills</h2>
+        <img
+          id="html-pic"
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/1920px-HTML5_logo_and_wordmark.svg.png"
+        />
+        <img
+          id="css-pic"
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1200px-CSS3_logo_and_wordmark.svg.png"
+        />
+        <img
+          id="js-pic"
+          src="https://1000logos.net/wp-content/uploads/2020/09/JavaScript-Logo.png"
+        />
       </div>
     </div>
   </body>
