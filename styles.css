@@ -34,14 +34,14 @@ li {
   margin-right: 10px;
 }
 
-#info {
+#info-container {
   display: flex;
   flex-direction: column;
   position: relative;
   margin-top: 30px;
 }
 
-#about-me {
+#about-me-header {
   margin-left: 20px;
   margin-right: 330px;
   display: block;
@@ -62,4 +62,23 @@ img {
   right: 0;
   margin-right: 12px;
   margin-top: 10px;
+  border-radius: 5%;
+}
+
+#projects-container {
+  margin-top: 30px;
+}
+
+#projects-header {
+  margin-left: 20px;
+  margin-right: 330px;
+  font-size: 40px;
+  padding: 5px 0;
+}
+
+#list {
+  margin-left: 28px;
+  display: block;
+  list-style-type: disc;
+  margin-right: 330px;
 }
