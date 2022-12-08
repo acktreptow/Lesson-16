@@ -13,21 +13,25 @@ function bold() {
   is.style.fontWeight = "bold";
 }
 
-function red() {
-  here.style.color = "red";
+function big() {
+  some.style.fontSize = "30px";
 }
 
-function red() {
-  here.style.color = "red";
+function underline() {
+  random.style.textDecoration = "underline";
 }
 
-function red() {
-  here.style.color = "red";
+function background() {
+  javascript.style.backgroundColor = "purple";
 }
 
-function red() {
-  here.style.color = "red";
+function italic() {
+  interactivity.style.fontStyle = "italic";
 }
 
 here.onclick = red;
 is.addEventListener("mouseover", bold);
+some.onmousedown = big;
+random.addEventListener("mouseleave", underline);
+javascript.onmouseup = background;
+interactivity.addEventListener("mouseup", italic);

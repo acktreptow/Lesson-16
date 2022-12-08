@@ -59,7 +59,7 @@ li {
   margin-top: 30px;
 }
 
-#about-me-header {
+#about-me-header, #contact-me-header {
   margin-left: 20px;
   margin-right: 330px;
   display: block;
